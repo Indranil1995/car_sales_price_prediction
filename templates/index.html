@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales price</title>
+</head>
+<body>
+    <center>
+    <div>
+        <h1>Car Price Prediction</h1>
+        <form action="{{ url_for('predict')}}" method="POST">
+            <input type="text" name="km_driven" placeholder="Km_Driven" required="required" />
+            <input type="text" name="no_year"placeholder="No_Year"required="required"/>
+            <input type="text" name="fuel_Diesel" placeholder="Fuel_Diesel" required="required" />
+            <input type="text" name="fuel_Electric" placeholder="Fuel_Electric" required="required" />
+            <input type="text" name="fuel_LPG" placeholder="Fuel_LPG" required="required" />
+            <input type="text" name="fuel_Petrol" placeholder="Fuel_Petrol" required="required" />
+            <input type="text" name="seller_type_Individual" placeholder="seller_type_Individual" required="required" />
+            <input type="text" name="seller_type_TrustmarkDealer" placeholder="seller_type_TrustmarkDealer" required="required" />
+            <input type="text" name="transmission_Manual"placeholder="Transmission_Manual"required="required"/>
+            <input type="text" name="owner_Fourth&AboveOwner"placeholder="Owner_Fourth&AboveOwner"required="required"/>
+            <input type="text" name="owner_SecondOwner"placeholder="Owner_SecondOwner"required="required"/>
+            <input type="text" name="owner_TestDrive Car"placeholder="Owner_TestDrive Car"required="required"/>
+            <input type="text" name="owner_ThirdOwner"placeholder="Owner_ThirdOwner"required="required"/><br>
+            <button type="submit" class="btn btn-success">Predict</button>
+
+
+        </form>
+        <br><br><h3>{{ prediction_text }}<h3><br>
+        <img src='static\aut-22-bk0504-01p.jpg' alt="car">
+        
+    
+    </div>
+</center>
+</body>
+</html>
