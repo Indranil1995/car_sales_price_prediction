@@ -7,7 +7,7 @@
 <li>Installation</li>
 <li>Technologies used</li>
 <li>Team</li>
-<li>Cregits</li>
+<li>Credits</li>
 </ul>
 
 <h2>Demo</h2>
