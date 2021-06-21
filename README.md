@@ -11,7 +11,7 @@
 </ul>
 
 <h2>Demo</h2>
-[link](https://car-sales-price.herokuapp.com/predict/)
+[link](https://car-sales-price.herokuapp.com/predict)
 <br>
 <img src="static\aut-22-bk0504-01p.jpg" alt="car">
 
